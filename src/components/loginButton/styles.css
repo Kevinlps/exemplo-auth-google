@@ -1,0 +1,25 @@
+#login-button {
+    display: block;
+    width: 300px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #fde3a7;
+    padding: 10px 0;
+    box-shadow: 3px 3px 3px #fcd670;
+    cursor: pointer;
+}
+
+#login-button * {
+    vertical-align: middle;
+}
+
+#login-button img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+#login-button span {
+    font-size: 120%;
+    font-family: 'bold';
+}
