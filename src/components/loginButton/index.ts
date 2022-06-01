@@ -12,6 +12,17 @@ const onClick = () =>{
             const credential = GoogleAuthProvider.credentialFromResult(result)
             const token = credential?.accessToken
             const {user} = result
+            
+            const {photoURL} =  user
+            if(photoURL){
+                
+            }
+            const {phoneNumber} = user
+            phoneNumber
+            const {email} = user
+            email
+            
+
             const {displayName} = user
             localStorage.setItem('token', token || '')
             localStorage.setItem('userName', displayName || '')
@@ -24,6 +35,7 @@ const onClick = () =>{
             console.log(errorCode, errorMessage)
 
         })
+        
 }
 
 const renderLoginButton = (container: HTMLElement) => {
