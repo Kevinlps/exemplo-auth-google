@@ -12,19 +12,3 @@ if(token) {
 }  
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*  <ul>
-        <li><a href="index.html" class="Menu">Home</a></li>
-        <li><a href="logout.html" class="Menu">Sair</a></li>
-    </ul>
-*/

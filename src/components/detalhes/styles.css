@@ -8,12 +8,13 @@ body{
 }
 
 #Detalhes h1 {
-    font-family: 'bold';
+    font-family: "bold";
     padding: 100px;
     color: white;
 }
 #Detalhes p {
   color: white;
+  font-family: "regular";
 }
 #menu {
   display: flex;

@@ -8,6 +8,7 @@ const foto = localStorage.getItem('Foto')
 const renderDetalhes = (container: HTMLElement) => {
   const htmlContent=`
   <div id="menu">
+    <h1>App</h1>
     <a href="index.html" class="Menu">Home</a>
     <a href="logout.html" class="Menu">Sair</a>
     <img src="${foto}" alt="foto do usuario">
