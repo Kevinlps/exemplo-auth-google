@@ -13,16 +13,15 @@ const onClick = () =>{
             const token = credential?.accessToken
             const {user} = result
             
-            const {photoURL} =  user
-            if(photoURL){
-                
-            }
-            const {phoneNumber} = user
-            phoneNumber
-            const {email} = user
-            email
-            
+            const telefone = user.phoneNumber
+            localStorage.setItem('Telefone', telefone || 'Não cadastrado')
 
+            const email = user.email;
+            localStorage.setItem('Email', email || '')
+            
+            const photoURL = user.photoURL;
+            localStorage.setItem('Foto', photoURL  || '')
+            
             const {displayName} = user
             localStorage.setItem('token', token || '')
             localStorage.setItem('userName', displayName || '')
