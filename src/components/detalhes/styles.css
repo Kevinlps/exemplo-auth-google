@@ -1,15 +1,25 @@
+@font-face{
+  font-family: 'bold';
+  src: url(../fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face{
+  font-family: 'regular';
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
 body{
   background-color: rgb(27, 27, 27);
 }
 #Detalhes {
-    width: 60%;
+    width: 90%;
     margin: auto;
     text-align: center;
 }
 
 #Detalhes h1 {
     font-family: "bold";
-    padding: 100px;
+    padding: 80px;
     color: white;
 }
 #Detalhes p {
@@ -18,7 +28,7 @@ body{
 }
 #menu {
   display: flex;
-  width: 100%;
+  width: 90%;
   margin: auto;
   background-color: rgb(27, 27, 27);
 }
@@ -26,12 +36,12 @@ body{
 #menu h1 {
   font-family: "bold";
   color: white;
-  padding-right: 600px;
+  padding-right: 700px;
   padding-left: 50px;
 }
 
 #menu a {
-  width: 100px;
+  width: auto;
   padding: 10px;
   text-align: center;
   margin: auto;

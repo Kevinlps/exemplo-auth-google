@@ -3,6 +3,7 @@ import "./styles.css";
 const foto = localStorage.getItem("Foto");
 
 const renderWelcomePanel = (container: HTMLElement) => {
+  const data = new Date().toLocaleDateString();
   const userName = localStorage.getItem("userName");
   const htmlContent = `
     <div id="menu">
@@ -13,7 +14,7 @@ const renderWelcomePanel = (container: HTMLElement) => {
 </div>
     <div id="Welcome"> 
         <h1>Seja bem vindo, ${userName}!</h1>
-        <span id="data"></span>
+        <span id="data">${data}</span>
         <span id="hora"></span>
     </div>
  `;

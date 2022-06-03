@@ -14,7 +14,7 @@ const onClick = () =>{
             const {user} = result
             
             const telefone = user.phoneNumber
-            localStorage.setItem('Telefone', telefone || 'Não cadastrado')
+            localStorage.setItem('Telefone', telefone || 'Não foi possivel encontrar')
 
             const email = user.email;
             localStorage.setItem('Email', email || '')

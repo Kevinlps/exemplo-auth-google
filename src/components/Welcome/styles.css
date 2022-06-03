@@ -3,7 +3,7 @@ body{
 }
 
 #Welcome {
-  width: 60%;
+  width: 100%;
   margin: auto;
   text-align: center;
   background-color: rgb(27, 27, 27);
@@ -16,6 +16,11 @@ body{
 }
 #hora {
   color: white;
+  font-family: 'regular';
+}
+#data {
+  color: white;
+  font-family: 'regular';
 }
 
 #menu {
@@ -33,7 +38,7 @@ body{
 }
 
 #menu a {
-  width: 100px;
+  width: auto;
   padding: 10px;
   text-align: center;
   margin: auto;
