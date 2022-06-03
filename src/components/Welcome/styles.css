@@ -59,3 +59,22 @@ body{
   width: 5%;
   margin: auto;
 }
+@media screen and (max-width: 600px) {
+  #menu{
+    display: block;
+  }
+
+  #menu h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 300%;
+  }
+  #menu a {
+    padding: 10px;
+  }
+  #menu img {
+    border-radius: 50px;
+    width: 15%;
+    margin: auto;
+  }
+}
